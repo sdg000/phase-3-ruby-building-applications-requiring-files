@@ -1,5 +1,8 @@
 # Something is missing here
 
+#require or import file containing {Plant Class} referenced in {Garden Class} below
+require_relative "./plant"
+
 class Garden
   attr_accessor :name
 
